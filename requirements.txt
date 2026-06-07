@@ -1,0 +1,7 @@
+# Root requirements dev tools only
+# Each section has its own requirements.txt for specific dependencies
+
+# Development tools
+ruff>=0.4.0
+mypy>=1.10.0
+pytest>=8.0.0
