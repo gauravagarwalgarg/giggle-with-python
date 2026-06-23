@@ -13,7 +13,10 @@ GiggleWithPython/
 │   ├── functions.py           # args, kwargs, decorators, generators, closures
 │   ├── oop.py                 # classes, inheritance, protocols, dataclasses
 │   ├── async_await.py         # asyncio, aiohttp, concurrent.futures
-│   └── typing_hints.py        # type hints, generics, TypeVar, Protocol
+│   ├── typing_hints.py        # type hints, generics, TypeVar, Protocol
+│   ├── comprehensions.py      # list/dict/set comprehensions, generators
+│   ├── context_managers.py    # with statement, @contextmanager, patterns
+│   └── scope_and_namespaces.py # LEGB rule, EAFP, duck typing, closures
 │
 ├── frameworks/
 │   ├── django/                # Full-featured web framework (existing project)
@@ -31,6 +34,8 @@ GiggleWithPython/
 ├── snippets/                  # Reusable Python recipes
 │   ├── gitlab_api.py          # GitLab REST API: projects, MRs, pipelines
 │   ├── file_ops.py            # Read/write JSON, YAML, CSV, .env
+│   ├── csv_json_ops.py        # CSV/JSON parsing, transformation, conversion
+│   ├── web_scraping.py        # BeautifulSoup, requests, pagination, export
 │   ├── http_requests.py       # Retry, auth, pagination, rate limiting
 │   ├── logging_setup.py       # JSON structured logging, rotating files
 │   ├── cli_argparse.py        # Subcommands, validation, env config
@@ -40,10 +45,12 @@ GiggleWithPython/
 ├── automation/                # DevOps and scripting
 │   ├── docker_utils.py        # Docker SDK: containers, builds, exec
 │   ├── aws_boto3.py           # S3, EC2, Lambda, SSM, SQS
+│   ├── file_renamer.py        # Bulk rename, organize files, find duplicates
 │   └── ssh_fabric.py          # Remote execution, deployment, file transfer
 │
-├── testing/                   # Pytest patterns
-│   └── test_example.py        # Fixtures, parametrize, mock, markers
+├── testing/                   # Pytest and unittest patterns
+│   ├── test_example.py        # Fixtures, parametrize, mock, markers
+│   └── test_unittest_example.py # TestCase, setUp/tearDown, mocking
 │
 ├── scripts/                   # Standalone utilities
 │   ├── setup_venv.sh          # Create venv, install deps
@@ -89,7 +96,7 @@ pytest testing/ -v
 ## What's Inside
 
 ### Fundamentals
-Python 3.10+ language features from basics to advanced. Covers data types, control flow, functions (decorators, generators, closures), OOP (protocols, dataclasses), async/await, and type hints with generics.
+Python 3.10+ language features from basics to advanced. Covers data types, control flow, functions (decorators, generators, closures), OOP (protocols, dataclasses), async/await, type hints with generics, comprehensions, context managers, and scope resolution (LEGB rule, duck typing, EAFP).
 
 ### Frameworks
 Three web frameworks compared side-by-side:
@@ -101,13 +108,13 @@ Three web frameworks compared side-by-side:
 Quick-reference scripts for the data science stack. Pandas cheatsheet, NumPy operations, Matplotlib plotting, and SciPy statistics.
 
 ### Snippets
-Copy-paste ready code for everyday tasks: API calls, file I/O, logging, CLI tools, datetime handling, and regex patterns.
+Copy-paste ready code for everyday tasks: API calls, file I/O, CSV/JSON operations, web scraping with BeautifulSoup, logging, CLI tools, datetime handling, and regex patterns.
 
 ### Automation
-Scripts for infrastructure work: Docker container management, AWS operations (S3, EC2, Lambda), and SSH remote execution.
+Scripts for infrastructure work: Docker container management, AWS operations (S3, EC2, Lambda), bulk file renaming and organization, and SSH remote execution.
 
 ### Testing
-Practical pytest patterns: fixtures, parametrize, mocking, markers, and project configuration.
+Practical testing patterns covering both pytest (fixtures, parametrize, mocking, markers) and unittest (TestCase, setUp/tearDown, assertions, mocking).
 
 ## Requirements
 
