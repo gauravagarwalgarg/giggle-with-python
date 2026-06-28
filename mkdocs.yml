@@ -1,18 +1,41 @@
 site_name: Giggle With Python
+site_description: A comprehensive Python end-to-end development repository
 site_url: https://gauravagarwalgarg.github.io/giggle-with-python/
 repo_url: https://github.com/GauravAgarwalGarg/giggle-with-python
+repo_name: GauravAgarwalGarg/giggle-with-python
+
 theme:
   name: material
   palette:
     - scheme: slate
+      primary: blue
+      accent: yellow
   features:
+    - navigation.tabs
     - navigation.sections
     - content.code.copy
     - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
 markdown_extensions:
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
   - admonition
   - tables
   - toc:
       permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Modules:
+    - Fundamentals: modules/fundamentals.md
+    - Data Analytics: modules/data-analytics.md
+    - Snippets: modules/snippets.md
+    - Automation: modules/automation.md
+    - Testing: modules/testing.md
+  - Guides:
+    - Python Ecosystem: python-ecosystem.md
+    - Best Practices: best-practices.md
