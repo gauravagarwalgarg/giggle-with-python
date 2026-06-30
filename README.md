@@ -1,5 +1,12 @@
 # GiggleWithPython 🐍
 
+[![CI](https://github.com/gauravagarwalgarg/giggle-with-python/actions/workflows/ci.yml/badge.svg)](https://github.com/gauravagarwalgarg/giggle-with-python/actions/workflows/ci.yml) [![Docs](https://img.shields.io/badge/docs-live-blue?logo=github)](https://gauravagarwalgarg.github.io/giggle-with-python/) ![Python](https://img.shields.io/badge/python-3.11+-blue?logo=python&logoColor=white) [![License](https://img.shields.io/github/license/gauravagarwalgarg/giggle-with-python)](https://github.com/gauravagarwalgarg/giggle-with-python/blob/master/LICENSE)
+
+> 📖 **Documentation**: [https://gauravagarwalgarg.github.io/giggle-with-python/](https://gauravagarwalgarg.github.io/giggle-with-python/)
+>
+> 📦 **Repository**: [GitHub](https://github.com/gauravagarwalgarg/giggle-with-python)
+
+
 A comprehensive Python end-to-end development repository. From fundamentals to frameworks, data science to DevOps everything you need to be productive with Python.
 
 ## Directory Structure
